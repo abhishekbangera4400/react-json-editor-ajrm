@@ -949,7 +949,7 @@ class JSONInput extends Component {
                                 _string       = previousToken.string,
                                 _type         = previousToken.type,
                                 _char         = _string.charAt(_string.length - 1);
-                            if(_type==='string' && _char==='\\') break;
+                           
                         }
                         if(buffer2.stringOpen===string){ buffer2.stringOpen = false; break; }
                     break;
